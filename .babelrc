@@ -1,0 +1,20 @@
+// { babel 8.X版本 都以@符号开头 babel-preset-stage-0等包被彻底废弃
+//     "presets": ["@babel/preset-env"],
+//     "plugins": ["@babel/plugin-transform-runtime", "@babel/plugin-proposal-class-properties"]
+
+// }
+{
+	"presets": [ "@babel/preset-env", "@babel/preset-react"], //, "stage-2" 
+	"plugins": [
+		// "jsx-control-statements",
+		// [
+		// 	"import-bee",
+		// 	{
+		// 		"style": true
+		// 	}
+		// ],
+		// "transform-decorators-legacy",
+		"@babel/plugin-transform-runtime"
+		// "babel-plugin-transform-regenerator"
+	]
+}
